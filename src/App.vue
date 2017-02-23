@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="view">
-    <headerBar></headerBar>
-    <navBar></navBar>
+    <headerBar :logo="logo" :tit="tit" :login="login"></headerBar>
+    <navBar :menu="menu"></navBar>
     <div class="main">
       <router-view></router-view>
     </div>
@@ -11,11 +11,20 @@
 <script>
 import headerBar from './components/Header'
 import navBar from './components/Nav'
+import config from './config/index.js'
 export default {
   name: 'app',
   components: {
     headerBar,
     navBar
+  },
+  data () {
+    return {
+      logo: config.logo,
+      tit: config.title,
+      login: config.login,
+      menu: config.menu
+    }
   }
 }
 </script>
@@ -32,7 +41,7 @@ export default {
 .nav-item{display:block;text-align:center;font-size:15px;color:#fff;padding:15px 0;border-bottom:1px solid #4085CC;}
 .nav-item.active{}
 
-.main{width:100%;height:100%;overflow:auto;background:#EEEEEE;}
+.main{width:100%;height:100%;overflow:hidden;background:#EEEEEE;}
 .content{font-size:0;width:100%;height:100%;overflow:auto;padding:10px;box-sizing:border-box;}
 .content-item{display:inline-block;width:50%;padding:5px;box-sizing:border-box;vertical-align:top;}
 .content-item h2{padding:8px 20px;background:#EEF7FF;border-bottom:1px solid #429FFF;font-size:16px;color:#006fe3;position:relative;}
@@ -50,4 +59,10 @@ export default {
 /*首页二级页面模板*/
 .info{padding:10px;box-sizing:border-box;}
 .info-nav{font-size:12px;color:#999;display:inline-block;padding:8px;}
+
+/*美化谷歌滚动条*/
+::-webkit-scrollbar{width:6px;background:#EEEEEE;-webkit-border-radius:5px;}
+::-webkit-scrollbar-thumb{background:#ccc;-webkit-border-radius:5px;}
+::-webkit-scrollbar-thumb:hover{background:#989898;}
+
 </style>

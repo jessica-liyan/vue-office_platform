@@ -7,6 +7,7 @@ input,textarea,button,select{border:none;}
 input:focus,textarea:focus,button:focus,select:focus {outline:none;}
 a{text-decoration:none;font-size:inherit;color:inherit;}
 i,em{font-style:normal;}b{font-weight:normal;}
+*{box-sizing:border-box;}
 
 .row{display:table;*+display:block;*+font-size:0;}
 .col{display:table-cell;*+display:inline-block;*display:inline;zoom:1;box-sizing:border-box;}

@@ -8,12 +8,12 @@
 </template>
 
 <script>
-import config from '../config/index.js'
 export default {
   name: 'nav',
-  data () {
-    return {
-      menu: config.menu
+  props: {
+    menu: {
+      type: Array,
+      default: []
     }
   }
 }

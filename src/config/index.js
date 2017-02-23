@@ -17,7 +17,7 @@ const config = {
     icon: 'static/img/home.png',
     url: {name: 'home'}
   }, {
-    text: '公文处理',
+    text: '表单',
     name: 'document',
     icon: 'static/img/document.png',
     url: {name: 'document'}
@@ -224,6 +224,138 @@ const config = {
       url: {name: 'home'},
       time: '01-12'
     }]
+  }],
+  caption: [
+    '序号',
+    '数据库显示名称',
+    '数据库名称',
+    '默认数据库',
+    '数据库类型',
+    '服务器地址',
+    '端口号',
+    '数据库描述',
+    '操作'
+  ],
+  info: [{
+    tit: '信息中心数据库',
+    entit: 'XXZXSJK',
+    default: 'XXZXSJK',
+    type: 'PostgreSQL',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Oracle',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'MySQL',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Oracle',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'SQLServer',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Hive',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Oracle',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Hive',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'SQLServer',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Oracle',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'SQLServer',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Hive',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Oracle',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Hive',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'SQLServer',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
   }]
 }
 export default config

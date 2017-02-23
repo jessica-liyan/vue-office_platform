@@ -30,9 +30,8 @@ export default new Router({
         default: Home
       }
     },
-    {path: '/home/:id', name: ':id', components: {default: Template}},
-    // {path: '/home/give', name: 'give', components: {default: Template}},
-    // {path: '/home/file', name: 'file', components: {default: Template}},
+    {path: '/home/give', name: 'give', components: {default: Template}},
+    {path: '/home/file', name: 'file', components: {default: Template}},
     // {path: '/home/chrome', name: 'chrome', components: {default: Chrome}},
     // {path: '/home/view', name: 'view', components: {default: View}},
     // {path: '/home/notice', name: 'notice', components: {default: Notice}},
@@ -64,11 +63,4 @@ export default new Router({
         default: Data
       }
     }]
-      // children: [
-      //   {path: '/home', name: 'home', component: Home},
-      //   {path: '/document', name: 'document', component: Document},
-      //   {path: '/interior', name: 'interior', components: {default: Home}},
-      //   {path: '/supervise', name: 'supervise', components: {default: Home}},
-      //   {path: '/data', name: 'data', components: {default: Home}}
-      // ]
 })

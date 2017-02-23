@@ -18,14 +18,20 @@
 </template>
 
 <script>
-import config from '../config/index.js'
 export default {
   name: 'hello',
-  data () {
-    return {
-      logo: config.logo,
-      tit: config.title,
-      login: config.login
+  props: {
+    logo: {
+      type: String,
+      default: ''
+    },
+    tit: {
+      type: String,
+      default: ''
+    },
+    login: {
+      type: Array,
+      default: []
     }
   }
 }
