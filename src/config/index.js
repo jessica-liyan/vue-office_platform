@@ -245,7 +245,7 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库1',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'Oracle',
@@ -253,7 +253,7 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库2',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'MySQL',
@@ -261,7 +261,7 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库3',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'Oracle',
@@ -269,7 +269,7 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库4',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'SQLServer',
@@ -277,7 +277,7 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库5',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'Hive',
@@ -285,7 +285,7 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库6',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'Oracle',
@@ -293,7 +293,7 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库7',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'Hive',
@@ -301,7 +301,7 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库8',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'SQLServer',
@@ -309,7 +309,7 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库9',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'Oracle',
@@ -317,7 +317,7 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库10',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'SQLServer',
@@ -325,7 +325,7 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库11',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'Hive',
@@ -333,7 +333,7 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库12',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'Oracle',
@@ -341,7 +341,7 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库13',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'Hive',
@@ -349,7 +349,71 @@ const config = {
     post: 54320,
     description: '数据采集库'
   }, {
-    tit: '卫人委数据库',
+    tit: '卫人委数据库14',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'SQLServer',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库15',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Hive',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库16',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Oracle',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库17',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Hive',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库18',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'SQLServer',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库19',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Hive',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库20',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Oracle',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库21',
+    entit: 'WRWSJL',
+    default: 'WRWSJL',
+    type: 'Hive',
+    ip: '10.0.0.14',
+    post: 54320,
+    description: '数据采集库'
+  }, {
+    tit: '卫人委数据库22',
     entit: 'WRWSJL',
     default: 'WRWSJL',
     type: 'SQLServer',
